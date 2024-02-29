@@ -12,7 +12,32 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "accent-color": "#8d8d8d",
+        "dark-color": "#191919",
+        "light-color": "#fff",
+        "grey-color": "#dbdbdb",
+        "light-grey-color": "#fafafa",
+        "primary-color": "#6995B1",
+        "light-primary-color": "#eef1f3",
+      },
     },
+    screens: {
+      '2xl': {'max': '1535px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1023px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
+    }
   },
   plugins: [],
 };
